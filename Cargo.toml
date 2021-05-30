@@ -1,0 +1,12 @@
+[package]
+name = "binary_search"
+version = "0.1.0"
+edition = "2018"
+
+[[bench]]
+name = "binary_search"
+harness = false
+
+[dev-dependencies]
+rand = "0.8.3"
+criterion = "0.3.4"
